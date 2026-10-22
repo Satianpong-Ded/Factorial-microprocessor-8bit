@@ -145,11 +145,3 @@ Based on reading the code, the following parts work: `LDI`, `JUMP` (conditions `
 - [ ] **`LDI` immediate encoding:** the assembler places the immediate in bits `[9:2]`, but the CU reads it from bits `[7:0]`. These need to be made consistent (the provided `machinecode.txt` follows the format the CU reads).
 - [ ] **Meaning of `G`:** the hardware sets `flag[4]` when A >= B (not A > B). Be careful when writing loop conditions; for example, `CMP R4 R11` with `R11 = 0` is always true for unsigned values.
 
-## License
-
-Specify the project license here (for example MIT) and add a `LICENSE` file.
-
-## Author
-
-- Name: your name
-- GitHub: [@username](https://github.com/username)
