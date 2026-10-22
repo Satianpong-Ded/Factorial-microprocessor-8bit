@@ -10,7 +10,7 @@ An 8-bit microprocessor written in Verilog, together with a Python assembler tha
 - Python assembler with label support for `JUMP` instructions
 - Testbench for simulating and checking the factorial program
 
-## Architecture
+## Data Path
 ![Data Path](DataPath.png)
 
 | Module | Description |
@@ -77,21 +77,6 @@ Syntax: `Opcode Operand1 Operand2 Operand3`. A label can be placed before an ins
 | `B` | Borrow |
 | `Z` | Zero |
 | `G` | Greater-or-Equal (A >= B) |
-
-## Project Structure
-
-The Verilog file names below are examples; adjust them to match your files.
-
-```
-.
-├── microprocessor.v     # microprocessor, mainmemory, CU, EU, ALU
-├── microclock_tb.v      # Testbench (module microclock_tb)
-├── Assembler.py         # Assembler: assembly -> machine code
-├── factorial.txt        # Example assembly: factorial (repeated addition)
-├── firstn.txt           # Example assembly: sum of 1 to N
-├── machinecode.txt      # Machine code loaded by the CU at simulation start
-└── README.md
-```
 
 ## Usage
 
