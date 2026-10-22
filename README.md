@@ -2,19 +2,6 @@
 
 An 8-bit microprocessor written in Verilog, together with a Python assembler that translates assembly programs into machine code, and a testbench for simulation. Example programs include factorial and the sum of 1 to N.
 
-## Table of Contents
-
-- [Features](#features)
-- [Architecture](#architecture)
-- [Instruction Format](#instruction-format)
-- [Instruction Set](#instruction-set)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Example Programs](#example-programs)
-- [Current Status and Known Limitations](#current-status-and-known-limitations)
-- [License](#license)
-- [Author](#author)
-
 ## Features
 
 - 8-bit data path, 16 registers (R0-R15), and a 32-word main memory (5-bit address)
