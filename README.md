@@ -24,7 +24,7 @@ An 8-bit microprocessor written in Verilog, together with a Python assembler tha
 - Testbench for simulating and checking the factorial program
 
 ## Architecture
-![Data Path](Data Path.png)
+![Data Path](DataPath.png)
 
 | Module | Description |
 |---|---|
